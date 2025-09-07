@@ -1,0 +1,31 @@
+{
+  "name": "freemans-automation",
+  "version": "1.0.0",
+  "description": "Automate Revolve checkout with Puppeteer and SQLite3",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "seed": "ts-node src/seed.ts"
+  },
+  "dependencies": {
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/sqlite3": "^3.1.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "sqlite3",
+    "typescript",
+    "checkout",
+    "revolve"
+  ]
+}
